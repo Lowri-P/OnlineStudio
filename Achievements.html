@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<Head>
+<meta charset="utf-8">
+<Title>HTML Portfolio Website</Title>
+<link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('new bg.png'); 
+          background-size: cover; 
+            background-repeat: no-repeat; 
+			background-attachment: fixed;
+        }
+		
+		 img {
+            width: 80%; 
+            display: block; 
+            margin: 25px auto 0; 
+		}
+		.image-container {
+            display: flex; space-between; 
+            margin-top: 20px ; 
+			width: 60%;
+			gap: 20px;
+        }
+		.left-image, .right-image {
+            width: 40%; 
+            height: 170px; 
+		}
+		
+        .achievement-image {
+            width: 90%; 
+			height: auto;
+			margin-left: -9px;
+        }
+	
+        .single-image-container {
+            display: flex; 
+            justify-content: center; 
+            margin: 20px 0; 
+        }
+
+        .single-image {
+            width: 60%; 
+            height: auto; 
+			margin-top: 9%;
+        }
+    </style>
+</Head>
+<body>
+<audio id="bg-music" autoplay loop controls>
+    <source src="stargirl.mp3" type="audio/mpeg">
+</audio>
+<nav>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="Achievements.html">Achievements</a></li>
+<li><a href="Projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<img src="header logo.png" alt="logo"> 
+<div class="image-container">
+    <img src="shocked left.png" alt="shocked left" class="left-image">
+    <img src="achievements.png" alt="all achievements" class="achievement-image">
+    <img src="shocked right.png" alt="shocked right" class="right-image">
+</div>
+<div class="single-image-container">
+    <img src="cigs.png" alt="cigs" class="single-image">
+</div>
+</body>
+</html>

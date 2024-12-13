@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #eee;
+}
+
+nav {
+	width: 80%;
+	height: 25px;
+	background-color: #430b0e;
+	margin: 30px auto;
+	margin-bottom: -15px;
+}
+
+ul {
+	text-align: center;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	float: center;
+}
+
+ul li a {
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	font-family: Monotype corsiva;
+	color: #dcd6cb;
+	padding: 8px; 
+}
+
+ul li a:hover {
+	color: #e4c456;
+}
